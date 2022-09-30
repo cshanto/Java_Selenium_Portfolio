@@ -12,7 +12,7 @@ I have written a selenium script to send mail from one account to another and ve
 6. TestNG
 7. 2 gmails (sender and receiver)
 
-Once you import given the codes into your personal workspace and execute the file, testNG report will be generated
+Once you import the given codes into your personal workspace and execute the file, testNG report will be generated
 which can be viewed.
 
 Feel free to change the codes according to your needs.
