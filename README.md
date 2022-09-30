@@ -10,10 +10,10 @@ I have written a selenium script to send mail from one account to another and ve
 4. TestNG
 5. 2 gmails (sender and receiver)
 
-Once you immport  the codes into your personal workspace and execute the file testNG report will be generated
+Once you import given the codes into your personal workspace and execute the file, testNG report will be generated
 which can be viewed.
 
-Feel free to change the code according to your needs.
+Feel free to change the codes according to your needs.
 
 
 Thanks
