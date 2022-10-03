@@ -41,14 +41,14 @@ public class CheckGmail {
 		//navigate to G-mail Login page
 		driver.get("https://accounts.google.com/servicelogin/signinchooser?service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin");
 		//input the G-mail using the locator : xpath (put your own G-mail)
-		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("dummmya1@gmail.com");
+		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("yourmail@gmail.com");
 		//Click next
 		driver.findElement(By.xpath("//span[text()='Next']")).click();
 		//wait for the element until its visible using explicitlywait(i.e.,one at a time)
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//input[@type='password']")));
 		//input the password (put your own password)
-		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("56789teN#");
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("*******");
 		//click next
 		driver.findElement(By.xpath("//span[text()='Next']")).click();
 		//click compose mail
@@ -56,7 +56,7 @@ public class CheckGmail {
 		//wait for 5 sec (optional)
 		Thread.sleep(5000);
 		//input the recipient's mail
-		driver.findElement(By.xpath("//input[@peoplekit-id]")).sendKeys("dummmya20@gmail.com");
+		driver.findElement(By.xpath("//input[@peoplekit-id]")).sendKeys("receivermail@gmail.com");
 		//Robot class optional here
 		Robot r = new Robot();
 		//press Enter key
@@ -84,12 +84,12 @@ public class CheckGmail {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.get("https://accounts.google.com/servicelogin/signinchooser?service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin");
 		//input the recipient's mail
-		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("dummmya20@gmail.com");
+		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("receivermail@gmail.com");
 		driver.findElement(By.xpath("//span[text()='Next']")).click();
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(30));
 		Thread.sleep(6000);
 		//input the recipient's password
-		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("56789teN#");
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("********");
 		driver.findElement(By.xpath("//span[text()='Next']")).click();
 		String receivedMail="";
 		Thread.sleep(9000);
