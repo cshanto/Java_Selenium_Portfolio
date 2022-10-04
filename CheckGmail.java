@@ -1,3 +1,7 @@
+/**
+I have written a selenium script to send mail from one account to another and verify it. This script should cover the basic practice of integration testing. 
+**/
+
 package GmailProject;
 
 import java.awt.AWTException;
