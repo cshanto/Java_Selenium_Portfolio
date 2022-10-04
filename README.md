@@ -1,7 +1,4 @@
-# Java_Selenium_Portfolio
-I have written a selenium script to send mail from one account to another and verify it.
-
-
+## Java_Selenium_Portfolio
 
 #requirements:
 1. Java (JRE,JDK1.8)
