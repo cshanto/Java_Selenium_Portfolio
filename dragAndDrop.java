@@ -1,3 +1,7 @@
+/**
+Here's a script to perform drag and drop using selenium and java. This script should cover the concept of drag and drop as well as scrolling a webpage 
+**/
+
 package mpkg;
 
 import java.awt.Desktop.Action;
