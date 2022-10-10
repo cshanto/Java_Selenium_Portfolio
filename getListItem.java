@@ -18,7 +18,7 @@
 	
 	import java_prog.collection;
 	
-	public class T13 {
+	public class getListItem {
 		static {
 			System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		}
