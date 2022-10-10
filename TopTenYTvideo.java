@@ -20,7 +20,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class ytSearch {
+public class TopTenYTvideo {
 	static {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 	}
