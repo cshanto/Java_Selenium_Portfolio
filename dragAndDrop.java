@@ -13,7 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class draganddrop {
+public class dragAndDrop {
 	static {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 	}
