@@ -1,4 +1,4 @@
-// Here's the scrip to select any of the auto suggested content of any search (here, Google's search).
+// Here's the script to select any of the auto suggested content of any search (here, Google's search).
 
 package mpkg;
 
